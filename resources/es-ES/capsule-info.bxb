@@ -1,5 +1,5 @@
 capsule-info {
-  display-name (Example Search Capsule)
+  display-name (Cápsula Becas)
   developer-name (Example Developer)
   icon-asset (images/icons/bixby_launcher.png)
   description ("Example search capsule. A great starting point to build a capsule for Bixby")

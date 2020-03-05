@@ -4,10 +4,10 @@ dialog (Concept) {
   }
   switch (plural(this)) {
     case (One) {
-      template (categoria)
+      template (categoría)
     }
     default {
-      template (categorias)
+      template (categorías)
     }
   }
 }

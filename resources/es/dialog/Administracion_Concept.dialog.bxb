@@ -4,10 +4,10 @@ dialog (Concept) {
   }
   switch (plural(this)) {
     case (One) {
-      template (administracion)
+      template (administración)
     }
     default {
-      template (administracions)
+      template (administraciones)
     }
   }
 }
