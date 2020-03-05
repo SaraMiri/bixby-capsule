@@ -20,8 +20,8 @@ structure (Beca) {
     type (BecaName)
     min(Optional) max(One)
   }
-  property (bbReguladoras) {
-    type (BbReguladoras)
+  property (Bases_Reguladoras) {
+    type (Bases_Reguladoras)
     min(Optional) max(One)
   }
   property (categoria) {

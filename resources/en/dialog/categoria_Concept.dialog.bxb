@@ -1,13 +1,14 @@
 dialog (Concept) {
   match {
-    Bases_Reguladoras (this)
+    categoria (this)
   }
   switch (plural(this)) {
     case (One) {
-      template (Bases reguladoras)
+      template (categoria)
     }
     default {
-      template (Bases reguladoras)
+      template (categorias)
     }
   }
 }
+

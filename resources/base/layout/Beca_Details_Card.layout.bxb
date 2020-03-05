@@ -12,9 +12,9 @@ layout-macro-def (beca-details-card) {
           content {
             attribution-link {
               label {
-                template ("#{title(concept(beca.bbReguladoras.plural('One')))}")
+                template ("#{title(concept(beca.Bases_Reguladoras.plural('One')))}")
               }
-              url ("[#{value(beca.bbReguladoras)}]")
+              url ("[#{value(beca.Bases_Reguladoras)}]")
             }
               title-area {
                   slot1 {

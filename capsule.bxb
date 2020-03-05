@@ -5,6 +5,7 @@ capsule {
   runtime-version (3)
   targets {
     target (bixby-mobile-es-ES)
+    target (bixby-mobile-en-US)
     // target (bixby-tv-en-US)
     // target (bixby-watch-en-US)
     // target (bixby-fridge-en-US)

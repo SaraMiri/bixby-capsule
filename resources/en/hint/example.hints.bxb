@@ -1,0 +1,7 @@
+hints {
+    // Replace with the hints you want for your capsule.
+    // The uncategorized hints should use `on <dispatch name>` at the end of the sentence.
+    // uncategorized {
+        // Show all becas on Example Search
+    // }
+  }

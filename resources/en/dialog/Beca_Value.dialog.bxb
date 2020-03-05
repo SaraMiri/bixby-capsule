@@ -1,0 +1,6 @@
+dialog (Value) {
+  match {
+    Beca (beca)
+  }
+  template ("[#{value (beca.administracion)}]")
+}
