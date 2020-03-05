@@ -62,7 +62,7 @@ template-macro-def (NO_RESULT) {
     }
   }
   content {
-    template ("I couldn't find any #{concept(concept)}")
+    template ("No pude encontrar ninguna #{concept(concept)}")
   }
 }
 

@@ -1,7 +1,7 @@
 train (t-f75sj6ilhoe5gtqdwc0ovp2yf) {
   utterance ("[g:Beca] becas (Madrid)[v:Administracion]")
   plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpYDlVbDLO6bkZuZlFpcUJSZn5ucxMDEwAjEDkGRkAAEmCAYA)
-  last-modified (1583430292488)
+  last-modified (1583431585428)
 }
 train (t-fbdy8zihczl75o3r3m6u36jgp) {
   utterance ([g:Beca] muestra todas las becas)

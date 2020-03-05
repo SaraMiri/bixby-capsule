@@ -45,10 +45,10 @@ template-macro-def (RESULT) {
       if ($handsFree) {
         template("I found #{value(concept)}.")
       } else {
-        template("Here is the #{concept(concept)}:")
+        template("Aquí hay una #{concept(concept)}:")
       }
     } else {
-      template ("Here are some #{concept(concept)}:")
+      template ("Aquí hay algunas #{concept(concept)}:")
     }
   }
 }
@@ -62,7 +62,7 @@ template-macro-def (NO_RESULT) {
     }
   }
   content {
-    template ("I couldn't find any #{concept(concept)}")
+    template ("No pude encontrar ninguna #{concept(concept)}")
   }
 }
 
@@ -74,7 +74,7 @@ template-macro-def (SELECTION) {
     }
   }
   content {
-    template ("Which #{label}?")
+    template ("¿Cuál #{label}?")
   }
 }
 
@@ -86,7 +86,7 @@ template-macro-def (ELICITATION) {
     }
   }
   content {
-    template ("What is the #{label}?")
+    template ("¿Cuál es la #{label}?")
   }
 }
 

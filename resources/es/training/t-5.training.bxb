@@ -1,7 +1,7 @@
 train (t-50n51s5om78yjgbxew0jamlj0) {
   utterance ("[g:Beca] requisitos beca (residencia extranjero artistas)[v:BecaName]")
   plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpeCTB8n5JeamMjAxMAIxA5BkZAABJggGAA==)
-  last-modified (1583407907694)
+  last-modified (1583431615924)
 }
 train (t-56tx8uzzidbhm6s9o9bbdsfhr) {
   utterance ("[g:Beca] dime becas de (arte)[v:categoria]")
