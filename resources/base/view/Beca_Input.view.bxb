@@ -1,0 +1,46 @@
+input-view {
+    match: Beca (this)
+
+    render {
+      selection-of (this) {
+          navigation-mode {
+            if ($handsFree) {
+              read-one {
+                with-navigation-conversation-drivers
+                list-summary {
+                  template("#{event (this, 'Result')}")
+                }
+                page-content (page) {
+                  underflow-statement {
+                    template-macro (RESULT_UNDERFLOW_STATEMENT)
+                  }
+                  item-selection-question {
+                    template-macro (ITEM_SELECTION_QUESTION_GENERIC)
+                  }
+                  overflow-statement {
+                    template-macro (RESULT_OVERFLOW_STATEMENT)
+                  }
+                  page-marker {
+                    if (isLastNavPage(page)){
+                      template-macro (PAGE_MARKER_LAST)
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          where-each (beca) {
+            spoken-summary {
+              template("[#{value(beca.administracion)}]")  //TODO: replace with a dialog that naturally summarizes the beca
+            }
+            layout-macro (beca-summary-card) {
+              param (beca) {
+                expression (beca)
+              }
+            }
+          }
+        }
+    }
+  }
+  

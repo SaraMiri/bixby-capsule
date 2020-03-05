@@ -1,0 +1,35 @@
+layout-macro-def (beca-summary-card-embedded) {
+    params {
+        param (beca) {
+          type (Beca)
+          min (Optional) max (One)
+        }
+        param (titleLabel) {
+          type (viv.core.Text)
+          min (Optional) max (One)
+        }
+        param (link) {
+          type (viv.core.Top)
+        }
+      }
+      content {
+        compound-card {
+          content {
+            layout-macro (beca-summary-card) {
+              param (beca) {
+                expression (beca)
+              }
+              param (titleLabel) {
+                expression (titleLabel)
+              }
+            }
+          }
+          on-click {
+            intent {
+              goal: Beca
+              value: $expr(link)
+            }
+          }
+        }
+      }
+  }

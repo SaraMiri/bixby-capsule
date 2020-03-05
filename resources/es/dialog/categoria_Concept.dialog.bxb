@@ -1,0 +1,14 @@
+dialog (Concept) {
+  match {
+    categoria (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (categoria)
+    }
+    default {
+      template (categorias)
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+dialog (Result) {
+  match {
+    Beca (this) {
+      from-output: FindBeca(find)
+    }
+  }
+  template-macro (RESULT) {
+    param (concept) {
+      expression (this)
+    }
+  }
+}

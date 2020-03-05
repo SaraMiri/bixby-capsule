@@ -1,0 +1,71 @@
+input-view {
+  match: BecaName (this)
+  render {
+    if (size(this) > 0) {
+      // -- selection
+      selection-of (this) {
+        navigation-mode {
+            if ($handsFree) {
+              read-one {
+                with-navigation-conversation-drivers
+                list-summary {
+                  template("#{event (this, 'Result')}")
+                }
+                page-content (page) {
+                  underflow-statement {
+                    template-macro (RESULT_UNDERFLOW_STATEMENT)
+                  }
+                  item-selection-question {
+                    template-macro (ITEM_SELECTION_QUESTION_GENERIC)
+                  }
+                  overflow-statement {
+                    template-macro (RESULT_OVERFLOW_STATEMENT)
+                  }
+                  page-marker {
+                    if (isLastNavPage(page)){
+                      template-macro (PAGE_MARKER_LAST)
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+        where-each (one) {
+          spoken-summary {
+            template("#{value(one)}")  //TODO: replace with a dialog that naturally summarizes the concept
+          }
+          title-card {
+                  title-area {
+                    halign (Center)
+                    slot2 {
+                      single-line {
+                        text {
+                          value ("#{value(one)}")
+                        }
+                      }
+                    }
+                  }
+                }
+        }
+      }
+    }
+
+    form {
+      on-submit {
+        goal : BecaName
+        value: viv.core.FormElement(text)
+      }
+      elements {
+        text-input{
+          id(text)
+          type (BecaName)
+          label(becaName)
+          value ("#{raw(this)}")
+        }
+      }
+    }
+  
+  }
+}
+      

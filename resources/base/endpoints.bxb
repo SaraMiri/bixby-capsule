@@ -1,0 +1,10 @@
+endpoints {
+  
+  action-endpoints {
+
+    action-endpoint (FindBeca) {
+      accepted-inputs (id, administracion, departamento, fechaDeRegistro, becaName, categoria)
+      local-endpoint ("FindBeca.js")
+    }
+  }
+}

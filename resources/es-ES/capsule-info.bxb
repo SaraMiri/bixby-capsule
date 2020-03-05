@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Example Search Capsule)
+  developer-name (Example Developer)
+  icon-asset (images/icons/bixby_launcher.png)
+  description ("Example search capsule. A great starting point to build a capsule for Bixby")
+  website-url (https://bixbydevelopers.com/)
+  search-keywords {
+    keyword (search)
+  }
+  dispatch-name (Example Search)
+}

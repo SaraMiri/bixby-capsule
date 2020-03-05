@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    Departamento (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (departamento)
+    }
+    default {
+      template (departamentos)
+    }
+  }
+}

@@ -1,0 +1,33 @@
+layout-macro-def (beca-details-card) {
+    params {
+      param (beca) {
+        type (Beca)
+        min (Required) max (One)
+      }
+    }
+    content {
+      layout {
+        
+        section {
+          content {
+            attribution-link {
+              label {
+                template ("#{title(concept(beca.bbReguladoras.plural('One')))}")
+              }
+              url ("[#{value(beca.bbReguladoras)}]")
+            }
+              title-area {
+                  slot1 {
+                    text("[#{value(beca.administracion)}]")
+                  }
+                }
+              
+              paragraph { value ("#{title(concept(beca.departamento.plural('One')))}: [#{value(beca.departamento)}]") style (Detail_M) }
+                paragraph { value ("#{title(concept(beca.fechaDeRegistro.plural('One')))}: [#{value(beca.fechaDeRegistro)}]") style (Detail_M) }
+                paragraph { value ("#{title(concept(beca.becaName.plural('One')))}: [#{value(beca.becaName)}]") style (Detail_M) }
+          }
+        }
+
+      }
+    }
+  }

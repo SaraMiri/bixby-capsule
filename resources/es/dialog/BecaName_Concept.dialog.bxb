@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    BecaName (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (beca name)
+    }
+    default {
+      template (beca names)
+    }
+  }
+}

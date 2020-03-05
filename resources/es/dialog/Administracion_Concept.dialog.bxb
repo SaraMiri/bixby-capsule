@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    Administracion (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (administracion)
+    }
+    default {
+      template (administracions)
+    }
+  }
+}

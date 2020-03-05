@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    BbReguladoras (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (bb reguladoras)
+    }
+    default {
+      template (bb reguladoras)
+    }
+  }
+}

@@ -1,0 +1,31 @@
+structure (Beca) {
+
+  property (id) {
+    type (Id)
+    min(Optional) max(One)
+  }
+  property (administracion) {
+    type (Administracion)
+    min(Optional) max(One)
+  }
+  property (departamento) {
+    type (Departamento)
+    min(Optional) max(One)
+  }
+  property (fechaDeRegistro) {
+    type (FechaDeRegistro)
+    min(Optional) max(One)
+  }
+  property (becaName) {
+    type (BecaName)
+    min(Optional) max(One)
+  }
+  property (bbReguladoras) {
+    type (BbReguladoras)
+    min(Optional) max(One)
+  }
+  property (categoria) {
+    type (categoria)
+    min(Optional) max(One)
+  }
+}

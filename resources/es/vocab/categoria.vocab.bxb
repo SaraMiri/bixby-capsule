@@ -1,0 +1,7 @@
+vocab (Departamento){
+    "ARTE"
+    "MÚSICA"
+    "TECNOLOGÍA"
+    "EMPLEO"
+    "FILOLOGÍA"
+}

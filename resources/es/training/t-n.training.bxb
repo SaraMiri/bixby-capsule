@@ -1,0 +1,5 @@
+train (t-nt5dsni158x5sss3ln18u6gf1) {
+  utterance ("[g:Beca] qué necesito para hacer la beca (jovenes artistas en el extranjero)[v:BecaName]?")
+  plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpeCTB8n5JeamMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1583407457160)
+}

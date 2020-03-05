@@ -1,0 +1,38 @@
+layout-macro-def (beca-summary-card) {
+    params {
+      param (beca) {
+        type (Beca)
+        min (Optional) max (One)
+      }
+      param (titleLabel) {
+        type (viv.core.Text)
+        min (Optional) max (One)
+      }
+    }
+    content {
+      
+          cell-card {
+            slot1 {
+              image {
+                shape (Square)
+                url("")
+              }
+            }
+            slot2 {
+              content {
+                primary {
+                  template ("[#{raw(titleLabel)}: ][#{value(beca.administracion)}]")
+                }
+                
+              }
+            }
+            slot3 {
+              label {
+                value {
+                  template ("")
+                }
+              }
+            }
+          }
+    }
+  }

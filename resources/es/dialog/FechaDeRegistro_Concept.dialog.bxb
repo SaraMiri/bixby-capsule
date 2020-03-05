@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    FechaDeRegistro (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (fecha de registro)
+    }
+    default {
+      template (fecha de registros)
+    }
+  }
+}

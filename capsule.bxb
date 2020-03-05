@@ -1,0 +1,32 @@
+capsule {
+  id (playground.becaCarlos)
+  version (1.0.0)
+  format(3)
+  runtime-version (3)
+  targets {
+    target (bixby-mobile-es-ES)
+    // target (bixby-tv-en-US)
+    // target (bixby-watch-en-US)
+    // target (bixby-fridge-en-US)
+  }
+  default-action (FindBeca)
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.money) { as (money) version (2.22.31) }
+    import (viv.navigation) { as (navigation) version (1.9.34) }
+    import (viv.time) { as (time) version-from (navigation) }
+    import (viv.geo) { as (geo) version-from (navigation) }
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    // section (ExampleSection)
+  }
+  permissions {
+   // Remove comment to access user's current location or profile
+   // user-profile-access
+  }
+}

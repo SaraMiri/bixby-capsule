@@ -1,0 +1,36 @@
+action (FindBeca) {
+  type (Search)
+  collect {
+    input (id) {
+      type (Id)
+      min (Optional)
+      max (One)
+    }
+    input (administracion) {
+      type (Administracion)
+      min (Optional)
+      max (One)
+    }
+    input (departamento) {
+      type (Departamento)
+      min (Optional)
+      max (One)
+    }
+    input (fechaDeRegistro) {
+      type (FechaDeRegistro)
+      min (Optional)
+      max (One)
+    }
+    input (becaName) {
+      type (BecaName)
+      min (Optional)
+      max (One)
+    }
+      input (categoria) {
+      type (categoria)
+      min (Optional)
+      max (One)
+    }
+  }
+  output (Beca)
+}
