@@ -4,10 +4,10 @@ dialog (Concept) {
   }
   switch (plural(this)) {
     case (One) {
-      template (beca name)
+      template (Nombre de la beca)
     }
     default {
-      template (beca names)
+      template (Nombre de la beca)
     }
   }
 }

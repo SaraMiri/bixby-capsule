@@ -21,7 +21,7 @@ layout-macro-def (beca-summary-card) {
             slot2 {
               content {
                 primary {
-                  template ("[#{raw(titleLabel)}: ][#{value(beca.administracion)}]")
+                  template ("[#{raw(titleLabel)}: ][#{value(beca.becaName)}]")
                 }
                 
               }

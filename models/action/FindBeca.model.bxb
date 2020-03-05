@@ -6,6 +6,11 @@ action (FindBeca) {
       min (Optional)
       max (One)
     }
+    input (becaName) {
+      type (BecaName)
+      min (Optional)
+      max (One)
+    }
     input (administracion) {
       type (Administracion)
       min (Optional)
@@ -18,11 +23,6 @@ action (FindBeca) {
     }
     input (fechaDeRegistro) {
       type (FechaDeRegistro)
-      min (Optional)
-      max (One)
-    }
-    input (becaName) {
-      type (BecaName)
       min (Optional)
       max (One)
     }
