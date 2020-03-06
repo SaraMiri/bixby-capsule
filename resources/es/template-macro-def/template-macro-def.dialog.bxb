@@ -48,7 +48,7 @@ template-macro-def (RESULT) {
         template("Aquí hay una #{concept(concept)}:")
       }
     } else {
-      template ("Aquí hay algunas #{concept(concept)}:")
+      template ("Aquí hay algunas #{concept(concept)} y/o subvenciones:")
     }
   }
 }

@@ -33,7 +33,7 @@ function findItems(items, searchTerm) {
   //a lot can be done here to improve matching the items
   var matches = []
   for (var i=0; i<items.length; i++) {
-   if (textLib.fuzzyMatch(items[i].beca.administracion, searchTerm)) {
+   if (textLib.fuzzyMatch(items[i].beca.becaName, searchTerm)) {
        matches.push(items[i])
      }
   }

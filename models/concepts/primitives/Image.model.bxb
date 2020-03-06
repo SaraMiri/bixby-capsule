@@ -1,0 +1,4 @@
+structure (Image) {
+  extends (core.BaseImage)
+  description (Descripción de la imagen)
+}

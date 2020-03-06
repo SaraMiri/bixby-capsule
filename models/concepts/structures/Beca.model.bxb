@@ -28,4 +28,8 @@ structure (Beca) {
     type (categoria)
     min(Optional) max(One)
   }
+   property (Image) {
+    type (core.BaseImage)
+    min(Optional) max(One)
+  }
 }

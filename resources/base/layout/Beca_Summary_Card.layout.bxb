@@ -15,7 +15,7 @@ layout-macro-def (beca-summary-card) {
             slot1 {
               image {
                 shape (Square)
-                url("")
+                url("[#{value(beca.Image[0].url)}]")
               }
             }
             slot2 {

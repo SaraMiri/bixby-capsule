@@ -3,7 +3,7 @@ endpoints {
   action-endpoints {
 
     action-endpoint (FindBeca) {
-      accepted-inputs (id, , becaName, administracion, departamento, fechaDeRegistro, categoria)
+      accepted-inputs (id, becaName, administracion, departamento, fechaDeRegistro, categoria)
       local-endpoint ("FindBeca.js")
     }
   }

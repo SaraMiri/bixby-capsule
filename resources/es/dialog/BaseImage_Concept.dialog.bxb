@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    core.BaseImage(this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (Imagen)
+    }
+    default {
+      template (Imágenes)
+    }
+  }
+}

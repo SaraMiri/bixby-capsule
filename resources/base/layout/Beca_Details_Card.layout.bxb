@@ -21,7 +21,20 @@ layout-macro-def (beca-details-card) {
                     text("[#{value(beca.becaName)}]")
                   }
                 }
-
+                 image-card {
+              aspect-ratio (1:1)
+              title-area {
+                slot1 {
+                  text("")
+                }
+                slot2 {
+                  single-line {
+                    text("")
+                  }
+                }
+              }
+              image-url("[#{value(beca.Image[0].url)}]")
+            }
               paragraph { value ("#{title(concept(beca.administracion.plural('One')))}: [#{value(beca.administracion)}]") style (Detail_M) }
                 paragraph { value ("#{title(concept(beca.departamento.plural('One')))}: [#{value(beca.departamento)}]") style (Detail_M) }
                 paragraph { value ("#{title(concept(beca.fechaDeRegistro.plural('One')))}: [#{value(beca.fechaDeRegistro)}]") style (Detail_M) }
