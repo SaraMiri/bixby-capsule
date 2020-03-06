@@ -1,0 +1,5 @@
+train (t-61k208na2vxqd6kqwqwsfwo3b) {
+  utterance ("[g:Beca] que necesito para la beca (jovenes)[v:BecaName] (artistas)[v:BecaName] (Madrid)[v:Administracion]")
+  plan (Y2BjkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpYDlVbDLO6bkZuZlFpcUJSZn5ufhMgVkgl9ibirF8qwMjAxMDMwMLEAWA5DNCGQzA0kQ4AFCBqAMA1AFWB4A)
+  last-modified (1583512760444)
+}

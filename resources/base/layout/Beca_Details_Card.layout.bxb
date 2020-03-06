@@ -10,17 +10,24 @@ layout-macro-def (beca-details-card) {
         
         section {
           content {
+
+            //Con esto creas el link en la esquina superior derecha a las bases reguladoras
             attribution-link {
               label {
                 template ("#{title(concept(beca.Bases_Reguladoras.plural('One')))}")
+                //template ("#{title(concept(beca.Bases_Reguladoras.plural('One')))}")
               }
               url ("[#{value(beca.Bases_Reguladoras)}]")
             }
+
+            //Con esto seleccionas el nombre de la beca como título
               title-area {
                   slot1 {
                     text("[#{value(beca.becaName)}]")
                   }
                 }
+
+                //Esto muestra la imagen de cada beca desde una url (image-url)
                  image-card {
               aspect-ratio (1:1)
               title-area {
@@ -33,9 +40,12 @@ layout-macro-def (beca-details-card) {
                   }
                 }
               }
-              image-url("[#{value(beca.Image[0].url)}]")
+              image-url("[#{value(beca.Image.url)}]")
+              //image-url("[#{value(beca.Image[0].url)}]")
             }
-              paragraph { value ("#{title(concept(beca.administracion.plural('One')))}: [#{value(beca.administracion)}]") style (Detail_M) }
+            
+            //Los párrafos permiten mostrar en cada línea la variable que se quiere mostrar en la ficha
+            paragraph { value ("#{title(concept(beca.administracion.plural('One')))}: [#{value(beca.administracion)}]") style (Detail_M) }
                 paragraph { value ("#{title(concept(beca.departamento.plural('One')))}: [#{value(beca.departamento)}]") style (Detail_M) }
                 paragraph { value ("#{title(concept(beca.fechaDeRegistro.plural('One')))}: [#{value(beca.fechaDeRegistro)}]") style (Detail_M) }
                 paragraph { value ("#{title(concept(beca.categoria.plural('One')))}: [#{value(beca.categoria)}]") style (Detail_M) }

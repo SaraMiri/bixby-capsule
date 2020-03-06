@@ -12,12 +12,17 @@ layout-macro-def (beca-summary-card) {
     content {
       
           cell-card {
+
+            //Muestra la imagen de cada beca
             slot1 {
               image {
                 shape (Square)
-                url("[#{value(beca.Image[0].url)}]")
+                url("[#{value(beca.Image.url)}]")
+              //url("[#{value(beca.Image[0].url)}]")
               }
             }
+
+            //Muestra como título de cada beca el nombre (becaName)
             slot2 {
               content {
                 primary {
@@ -26,6 +31,8 @@ layout-macro-def (beca-summary-card) {
                 
               }
             }
+
+            //Vacío
             slot3 {
               label {
                 value {

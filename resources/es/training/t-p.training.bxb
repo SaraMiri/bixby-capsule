@@ -1,10 +1,15 @@
 train (t-pftjzz2ekwl7o4l5u2r9lyoka) {
   utterance ("[g:Beca] que necesito para la beca (jovenes artistas en el extranjero)[v:BecaName]")
   plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpeCTB8n5JeamMjAxMAIxA5BkZAABJggGAA==)
-  last-modified (1583431630668)
+  last-modified (1583526959289)
 }
 train (t-pmeq0h7n049r06v1q7fm0fv6x) {
   utterance ("[g:Beca] encuentra la beca (jovenes artistas)[v:BecaName] de (Madrid)[v:Administracion]")
   plan (Y2BhkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpYDlVbDLO6bkZuZlFpcUJSZn5ufhMgVkgl9ibioDMwMjAxOQZADSIAgBID5YFAA=)
   last-modified (1583495920944)
+}
+train (t-pvcikhv6g6l874o35e8kc2rkd) {
+  utterance ("[g:Beca] cuál es la beca (jóvenes)[v:BecaName] (artistas)[v:BecaName]")
+  plan (Y2BlkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpeCTB8n5JeamUizPwsDIwMTADKQZwCwmIMnAwAOEDEBRBogMAA==)
+  last-modified (1583526942736)
 }

@@ -2,7 +2,7 @@ capsule {
   id (playground.becaCarlos)
   version (1.0.0)
   format(3)
-  runtime-version (3)
+  runtime-version (4)
   targets {
     target (bixby-mobile-es-ES)
     target (bixby-mobile-en-US)

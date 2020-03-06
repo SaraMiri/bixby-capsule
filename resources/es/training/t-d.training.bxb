@@ -3,3 +3,8 @@ train (t-d1xgz01un2mhe1ve3sqd8atht) {
   plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpeCTB8n5JeamMjAxMAIxA5BkZAABJggGAA==)
   last-modified (1583407218944)
 }
+train (t-divmds1kh5u4ct9vgxi2ogrok) {
+  utterance ("[g:Beca] dime que becas hay en (Málaga)[v:Administracion]")
+  plan (Y2BmkCrISaxML8ovzUvRS0pNTnROLMrJL9ZzAjIZ5LDLuWXmpYDlVbDLO6bkZuZlFpcUJSZn5ucxMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1583526951504)
+}

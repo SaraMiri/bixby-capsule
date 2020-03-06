@@ -1,35 +1,35 @@
 template-macro-def (ITEM_SELECTION_QUESTION_GENERIC) {
   content {
     choose (Random) {
-      template ("Does that sound good?")
-      template ("Want to pick this one?")
-      template ("Does that one sound good?")
-      template ("Want to choose this one?")
-      template ("Do you want that one?")
+      template ("¿Te parece bien esto?")
+      template ("¿Buscabas esto?")
+      template ("¿Te suena bien esto?")
+      template ("¿Quieres elegir esto?")
+      template ("¿Quieres este resultado?")
     }
   }
 }
 
 template-macro-def (RESULT_OVERFLOW_STATEMENT) {
   content {
-    template ("That's all I have.")
+    template ("Esto es todo lo que tengo.")
   }
 }
 
 template-macro-def (RESULT_UNDERFLOW_STATEMENT) {
   content {
-    template ("This is the first option.")
+    template ("Esta es la primera opción.")
   }
 }
 
 template-macro-def (RESULT_NEXT_QUESTION) {
   content {
-    template ("Would you like to hear the next one?")
+    template ("¿Quieres probar con el siguiente resultado?")
   }
 }
 
 template-macro-def (PAGE_MARKER_LAST) {
-  content: template ("Finally")
+  content: template ("Finalmente he obtenido esto")
 }
 
 template-macro-def (RESULT) {
@@ -43,12 +43,13 @@ template-macro-def (RESULT) {
   content {
     if ("plural(concept) == 'One'") {
       if ($handsFree) {
-        template("I found #{value(concept)}.")
+        template("He encontrado #{value(concept)}.")
       } else {
-        template("Aquí hay una #{concept(concept)}:")
+        template("Esto es lo que he encontrado")
+      //template("Aquí hay una #{concept(concept)}:")
       }
     } else {
-      template ("Aquí hay algunas #{concept(concept)} y/o subvenciones:")
+      template ("Aquí hay algunas #{concept(concept)} y subvenciones:")
     }
   }
 }
